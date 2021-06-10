@@ -1,0 +1,116 @@
+body
+{
+  background:      url(images/wlp-bkgrnd.png) repeat-y;
+  color:           black;
+  margin:		   0px;
+  border:		   0px;
+  padding:		   0px;
+}
+
+#header
+{
+  padding:         20px 5px 5px 20px;
+  border-bottom:   1px solid black;
+  color:    	   white;
+}
+
+.header-title-text
+{
+  font-weight:	   normal;
+  font-variant:	   small-caps;
+  font-size:	   2.4em;
+  font-family:	   "Book Antiqua", "Bookman Old Style", Bookman, serif;
+}
+
+.title-text
+{
+  font-size:       1.4em;
+}
+
+.header-minor
+{
+  font-weight:     bold;
+  padding:         0px;
+  font-size:       1.2em;
+  border-bottom:   1px solid #b66741;
+  padding-bottom:  1px;
+  width:           15em;
+}
+
+#allBodyText
+{
+  background-color: white;
+  padding:         40px 10% 40px 10%;
+}
+
+#end
+{
+  background:	   inherit;
+  border-top:      1px solid black;
+  padding:         5px;
+  color:           white;
+}
+
+.menu
+{
+  margin:		   8px 1px;
+  font-size:	   80%;
+}
+
+a:link
+{
+  color: 		   #c17543;
+  text-decoration: none;
+}
+
+a:visited
+{
+  color: 		   #7a223b;
+  text-decoration: none;
+}
+
+a:hover
+{
+  text-decoration: underline;
+}
+
+a.menuItem
+{ 
+  color:		   white;
+  padding:		   0 3px;
+  margin:		   0 2px;
+  text-decoration: none;
+  font-family:	   sans-serif;
+}
+
+a.menuItem:link, a.menuItem:visited
+{
+  color:		   white;
+  border-left:	   1px dotted white;
+  border-bottom:   1px dotted white;
+  margin-right:	   3px;
+}
+
+a.menuItem:hover
+{
+  border:		   1px solid white;
+  margin-right:	   2px;
+  text-decoration: none;
+}
+
+.description
+{
+  font-size:	   80%;
+  margin:	   	   0 0 1em 1.5em;
+}
+
+.date
+{
+  font-size:	   80%;
+  font-family:	   monospace;
+}
+
+.nobr
+{
+  white-space: nowrap;
+}
