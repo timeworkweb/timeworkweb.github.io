@@ -1,4 +1,4 @@
-#timeworkweb.com
+#timeworkweb.github.io
 
 Archive and continuation of the TimeWork Web site.<br>
 
