@@ -53,7 +53,7 @@ h1, p, a, button, div {
   background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("buyjunk.jpg");
 
   /* Set a specific height */
-  height: 75%;
+  height: 85%;
 
   /* Position and center the image to scale nicely on all screens */
   background-position: center;her
@@ -76,12 +76,4 @@ button a {
     text-decoration: none;
 }
 
-.SubjectArea {
-    color: #F15A22;
-    font-family: sans-serif;
-    border-bottom: 2px solid lightgray;    
-}
-
-
-
-    </style>
+</style>
