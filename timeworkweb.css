@@ -50,10 +50,10 @@ h1, p, a, button, div {
 /* The hero image */
 .hero-image {
   /* Use "linear-gradient" to add a darken background effect to the image (photographer.jpg). This will make the text easier to read */
-  background-image: linear-gradient(rgba(0, 0, 0, 0.25), rgba(0, 0, 0, 0.25)), url("buyjunk.jpg");
+  background-image: linear-gradient(rgba(60, 60, 60, 0.25), rgba(60, 60, 60, 0.025)), url("buyjunk.jpg");
 
   /* Set a specific height */
-  height: 85%;
+  height: 90%;
 
   /* Position and center the image to scale nicely on all screens */
   background-position: center;her
