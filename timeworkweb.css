@@ -14,7 +14,7 @@
   text-align: center;
   padding: 14px 16px;
   text-decoration: none;
-  font-size: 17px;
+  font-size: 25px;
 }
 
 /* Change the color of links on hover */
@@ -50,7 +50,7 @@ h1, p, a, button, div {
 /* The hero image */
 .hero-image {
   /* Use "linear-gradient" to add a darken background effect to the image (photographer.jpg). This will make the text easier to read */
-  background-image: linear-gradient(rgba(60, 60, 60, 0.25), rgba(60, 60, 60, 0.025)), url("buyjunk.jpg");
+  background-image: linear-gradient(rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.0)), url("buyjunk.jpg");
 
   /* Set a specific height */
   height: 90%;
