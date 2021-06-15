@@ -1,17 +1,17 @@
 
 .topnav {
-  overflow: hidden;
   background-color: #2F4F4F;
+  overflow: hidden;
 }
 
 .topnav a {
-  float: left;
-  display: block;
   color: #f2f2f2;
-  text-align: center;
-  padding: 14px 16px;
-  text-decoration: none;
+  display: block;
+  float: left;
   font-size: 17px;
+  padding: 14px 16px;
+  text-align: center;
+  text-decoration: none;
 }
 
 .active {
@@ -29,32 +29,32 @@
 }
 
 .dropdown .dropbtn {
-  font-size: 17px;    
-  border: none;
-  outline: none;
-  color: white;
-  padding: 14px 16px;
   background-color: inherit;
+  border: none;
+  color: #f2f2f2;
   font-family: inherit;
+  font-size: 17px;    
   margin: 0;
+ /* outline: none;*/	
+  padding: 16px 14px;
 }
 
 .dropdown-content {
-  display: none;
-  position: absolute;
   background-color: #f9f9f9;
+  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+  display: none;
   min-width: 160px;
-  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  position: absolute;
   z-index: 1;
 }
 
 .dropdown-content a {
-  float: none;
-  color: black;
-  padding: 12px 16px;
-  text-decoration: none;
+  color: darkblue;
   display: block;
+  float: none;
+  padding: 12px 16px;
   text-align: left;
+  text-decoration: none;
 }
 
 .topnav a:hover, .dropdown:hover .dropbtn {
@@ -64,7 +64,7 @@
 
 .dropdown-content a:hover {
   background-color: #ddd;
-  color: black;
+  color: darkblue;
 }
 
 .dropdown:hover .dropdown-content {
@@ -75,25 +75,23 @@
 .hero-image {
   /* Use "linear-gradient" to add a darken background effect to the image (photographer.jpg). This will make the text easier to read */
   background-image: linear-gradient(rgba(0, 0, 0, 0), rgba(0, 0, 0, 0)), url("buyjunk.jpg");
-
-  /* Set a specific height */
-  height: 87%;
-
   /* Position and center the image to scale nicely on all screens */
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
+ /* Set a specific height */
+  height: 87%;
   position: relative;
 }
 
 /* Place text in the middle of the image */
 .hero-text {
-  text-align: center;
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
   color: white;
+  left: 50%;
+  position: absolute;
+  text-align: center;
+  top: 50%;
+  transform: translate(-50%, -50%);
 }
 
 
@@ -103,9 +101,10 @@ button a {
 }
 
 .SubjectArea {
-    color: #F15A22;
-    font-family: Tahoma, sans-serif;
-    border-bottom: 2px solid lightgray;    
+   border-bottom: 2px solid lightgray;   
+   color: #F15A22;
+   font-family: Tahoma, sans-serif;
+   
 }
 
 body{
@@ -118,38 +117,38 @@ p, a {
 }
 
 h2.SubjectArea {
-    color: #F15A22;
     background-color: #f1f1f1;
+    border-bottom: 2px solid lightgray;
+    color: #F15A22;
     font-family: serif;
     font-size: 1em;
-    border-bottom: 2px solid lightgray;
-    max-width: 95%;
     margin: 30px 10px 10px 10px;
+    max-width: 95%;
     padding-bottom: 5px;
 }
 
 .backtotop {
+	color: darkblue;
     display: flex;
     justify-content: space-around;
-    color: darkblue;
-}
+  }
 
-a.NewTitleGoNow {
-    color: white;
+.NewTitleGoNow {
     background-color: black;
+    color: white;
+    max-width: 170px;
     padding: 5px;
     text-decoration: none;
-    max-width: 170px;
 }
 .NewTitleContainer {
     background-color: white;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
     display: flex;
     flex-direction: row; 
-    padding-bottom: 10px;
     margin: 10px;
     max-width: 95%;
-    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
-    transition: 0.3s;
+    padding-bottom: 10px;
+    /*transition: 0.3s;*/
 }
 
 .Selected {
@@ -173,15 +172,17 @@ a.NewTitleGoNow {
 }
 
 .NewTitleCover img {
-    max-width: 120px !important;
+    max-width: 120px;
+    padding-left: 5px; 
     padding-top: 5px;
-    padding-left: 5px;
+  
    
 }
 
 .NewTitleTitle {
-    font-size: 1.2em; font-weight: bold;
-    color: #40192B;
+   color: #40192B;
+   font-size: 1.2em; font-weight: bold;
+    
 }
  
 .NewTitleAuthor {
@@ -189,17 +190,17 @@ a.NewTitleGoNow {
     font-size: 1.1em;
 }
 .video {
-    position: relative; 
-    padding-bottom: 56.25%; 
     height: 0; 
-    overflow: hidden; 
     max-width: 100%;
+    overflow: hidden; 
+    padding-bottom: 56.25%; 
+    position: relative; 
 }
 
 .video iframe, .videos object, .video embed {
-    top:0; 
-    left:0; 
-    width:100%; 
     height:100%; 
+    left:0; 
     position:absolute;
+    top:0; 
+    width:100%; 
 }
