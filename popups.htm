@@ -1,27 +1,114 @@
 <!DOCTYPE html>
 <html>
 <head>
-<link rel="stylesheet" type="text/css" href="./tww.css"/>
+<title>Pop-up</title>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
 <style> 
-.popupbooks {
-  column-count: 3;
-  column-gap: 60px;
-  column-rule: 1px solid lightblue;
-  margin-right: 60px;
-  margin-left: 60px;
+.topnav {
+  background-color: #2F4F4F;
+  overflow: hidden;
+}
+
+.topnav a {
+  color: #f2f2f2;
+  display: block;
+  float: left;
+  font-size: 17px;
+  padding: 14px 16px;
+  text-align: center;
+  text-decoration: none;
+}
+
+.active {
+  background-color: #5F9EA0;
+  color: white;
+}
+
+.topnav .icon {
+  display: none;
+}
+
+.dropdown {
+  float: left;
+  overflow: hidden;
+}
+
+.dropdown .dropbtn {
+  background-color: inherit;
+  border: none;
+  color: #f2f2f2;
+  font-family: inherit;
+  font-size: 17px;    
+  margin: 0;
+ /* outline: none;*/	
+  padding: 16px 14px;
+}
+
+.dropdown-content {
+  background-color: #f9f9f9;
+  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+  display: none;
+  min-width: 160px;
+  position: absolute;
+  z-index: 1;
+}
+
+.dropdown-content a {
+  color: darkblue;
+  display: block;
+  float: none;
+  padding: 12px 16px;
+  text-align: left;
+  text-decoration: none;
+}
+
+.topnav a:hover, .dropdown:hover .dropbtn {
+  background-color: #555;
+  color: white;
+}
+
+.dropdown-content a:hover {
+  background-color: #ddd;
+  color: darkblue;
+}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+
+.video {
+    height: 0; 
+    max-width: 100%;
+    overflow: hidden; 
+    padding-bottom: 56.25%; 
+    position: relative; 
+}
+
+.video iframe, .videos object, .video embed {
+    height:100%; 
+    left:0; 
+    position:absolute;
+    top:0; 
+    width:100%; 
+}
+	
+.w3-third  {
   text-align: justify;
 }
 
-h2 {
-  column-span: all;
-}
-  body {
+body, h1, h2, h3, h4, h5, h6 {
   background-color: linen;
+  font-family: serif;
+  text-align: left
 }
+h3 {
+  font-weight: bold;
 }
 </style>
 </head>
 <body>
+<div class="w3-container">
 <div class="topnav" id="myTopnav">
   <a href="index.html">home</a>
   <a href="pubs.htm">publications</a>
@@ -38,9 +125,18 @@ h2 {
   </div> 
   <a href="memoir.htm">memoir</a>
 </div>
-<div class="popupbooks">
+
+
+
+<div class="w3-container">
 <h2>Three Pop-up Economists</h2>
-<b>The Thirty Hour Work Week</b> <p>Arthur Dahlberg's key argument in <i>Jobs, Machines and Capitalism</i> was that capitalism tolerated, encouraged and, in some circumstances, virtually required employers to waste the effort of workers by stimulating artificial needs for worthless consumer goods, expanding production facilities beyond actual requirements, differentiating products in frivolous ways and competitively establishing needlessly redundant distribution channels. The result has been that the vast majority has not benefited in proportion to the enormous increases in productive capacity. 
+</div>
+
+<div class="w3-row w3-border">
+<div class="w3-third w3-container">
+<div class="popupbooks">
+  <h5><b>The Thirty Hour Work Week</b></h5>  
+Arthur Dahlberg's key argument in <i>Jobs, Machines and Capitalism</i> was that capitalism tolerated, encouraged and, in some circumstances, virtually required employers to waste the effort of workers by stimulating artificial needs for worthless consumer goods, expanding production facilities beyond actual requirements, differentiating products in frivolous ways and competitively establishing needlessly redundant distribution channels. The result has been that the vast majority has not benefited in proportion to the enormous increases in productive capacity. 
 
 </p><p><section class="videos">
     <div class="video"><div style="text-align: center;">
@@ -56,7 +152,14 @@ h2 {
 </p><p>Dahlberg argued that wages are determined by bargaining and the shift away from spontaneously demanded goods and services undermines labor's relative bargaining power, resulting in a smaller labor share of income. Because there is a lag between the production of the less urgent commodities and their purchase, in addition to workers "who are engaged in fantastic occupations and who always stand ready to compete for low wages," there is also generated a "residuum of unemployed which raises havoc with the bargaining power of workers and managers, and which, year in and year out, prevents the workers of industry from buying back what they produce."
 </p><p>Because of labour's reduced bargaining power, a larger share of income goes to return on capital and thus to the higher income groups who already have their spontaneous wants met. What they don't spend of this excess on artificially stimulated consumption, they may invest in excess production capacity or on additional marketing efforts. Dahlberg thus saw unemployment as the slow-moving consequence of the introduction of 
 labor-saving technology unless the hours of work are reduced.
-</p><p><b>The Hours of Labour</b><p>At the meeting in Winnipeg, Manitoba in 1909 of the Economics and Statistics Section of the British Association for the Advancement of Science, Sydney J. Chapman unveiled his economic theory of the "hours it is wise to assign to labour." The "Hours of Labour" theory was subsequently published in <i>The Economic Journal</i>. Chapman's analysis arrived at several remarkable and far-reaching conclusions. First, the length of working day that would be best for workers' welfare is shorter than the length that would produce the largest output. Second, the play of competition would tend to make the working day too long, even from the standpoint of production. Third, improved methods of production would lead to a progressive reduction of the optimal length for the working day.
+</p>
+</diV>
+ </div> 
+
+<div class="w3-third w3-container">
+
+  <h5><b>The Hours of Labour</b></h5>
+ At the meeting in Winnipeg, Manitoba in 1909 of the Economics and Statistics Section of the British Association for the Advancement of Science, Sydney J. Chapman unveiled his economic theory of the "hours it is wise to assign to labour." The "Hours of Labour" theory was subsequently published in <i>The Economic Journal</i>. Chapman's analysis arrived at several remarkable and far-reaching conclusions. First, the length of working day that would be best for workers' welfare is shorter than the length that would produce the largest output. Second, the play of competition would tend to make the working day too long, even from the standpoint of production. Third, improved methods of production would lead to a progressive reduction of the optimal length for the working day.
 </p><p>Not only were those conclusions novel from the point of view of conventional economic teaching, they also had important practical implications for public policy regulating the hours of work. If the hours of work established by the market were likely to be too long, even from the perspective of total output, then legal limitation of the working day could aid not only equity but also economic efficiency. This possibility challenges the  economic truism that there is a "trade-off" between equity and efficiency goals and that economic efficiency is best served through the workings of a competitive market. Chapman's theory calls both of those suppositions into question. It does so from within the tradition of neoclassical economics, using the approved tools and standard assumptions. 
 
 </p><p><section class="videos">
@@ -71,9 +174,13 @@ labor-saving technology unless the hours of work are reduced.
 </p><p>The length of day that would be best for workers' welfare would be shorter than that which could produce the greatest total output. Chapman considered three elements in assessing the optimal day for the worker:
 </p><p><ul style="text-align: left;"><li>the wage, which Chapman assumed for the purpose of analysis to exactly equal the worker's marginal productivity;</li><li>the marginal value of leisure, which Chapman assumed to vary in response to changes in the level of wages, and;</li><li>the disutility of work, which Chapman assumed to also be a function of the length of the working day -- he assumed work could be enjoyable during some intermediate period of the working day.</li></ul></p>
 <p>Chapman maintained that in forming their ideal of a working day, workers' would tend to disregard the effects of changes in work time on efficiency, and hence on wages. Accordingly, they would tend to prefer a working day longer than would be prudent in the long run, even though it would not be as long as that preferred by employers acting competitively. Thus, the exclusive concern of both employers and workers with immediate self-interest would bias the preferences of each toward longer than optimal hours.</p>
-</p><p><b><i>The Source and Remedy of the National Difficulties</i></b></p><p>Charles Wentworth Dilke's first premise was that "the wealth of a nation consists in its reserved surplus labour." It didn't matter how revenues were received -- whether as interest, rent, pension, or profit -- they originated from the same source. Second, this reserved surplus labour -- or capital -- "has a power of reproduction… when invested in machinery" or other productive facilities. But this accumulation is very limited "if the happiness of the whole, and not the luxuries of a few, is the proper subject for national congratulation." When the limit had been reached, the hours of labour could be drastically reduced, "where men heretofore laboured twelve hours they would now labour six, and this is national wealth, this is national prosperity." What limits the accumulation of capital is the decreasing interest that would be paid for its use.
+</p> 
+</div>
+<div class="w3-third w3-container">
+   <h5><b>Wealth is Disposable Time</b></h5>
+  Charles Wentworth Dilke's first premise was that "the wealth of a nation consists in its reserved surplus labour." It didn't matter how revenues were received -- whether as interest, rent, pension, or profit -- they originated from the same source. Second, this reserved surplus labour -- or capital -- "has a power of reproduction… when invested in machinery" or other productive facilities. But this accumulation is very limited "if the happiness of the whole, and not the luxuries of a few, is the proper subject for national congratulation." When the limit had been reached, the hours of labour could be drastically reduced, "where men heretofore laboured twelve hours they would now labour six, and this is national wealth, this is national prosperity." What limits the accumulation of capital is the decreasing interest that would be paid for its use.
 </p><p>Although Dilke's account of the source of capital and the limits of accumulation is indeed interesting, its function in the pamphlet is to set the stage for the crucial pair of questions that appear on page seven. After deducing from principles of political economy that capital, left to its natural course, would soon do away with further accumulation, the author asks why that seemingly inevitable result has never happened and how it is that with all the presumably labor-saving wonders of modern industry, workers (in the early 19th century) worked longer hours and more strenuously than ever before. 
-</p><p>His conclusiontwas that "power has ever interfered, and by misdirecting the labour of one part, and destroying the labour of another, no longer permits a real accumulation of surplus produce, nor consequently such an increase of capital as shall reduce the value of existing capital, or reduce the capitalist to the necessity of labouring again." Dilke did not identify who this power was but presumably it was powerful capitalists and landowners, and the legislators who did their bidding.
+</p><p>His conclusiontwas that "power has ever interfered, and by misdirecting the labour of one part, and destroying the labour of another, no longer permits a real accumulation of surplus produce, nor consequently such an increase of capital as shall reduce the value of existing capital, or reduce the capitalist to the necessity of labouring again." Dilke did not identify who this power was but presumably it was powerful capitalists and landowners, and the legislators who did their bidding.</p>
 
 </p><p><section class="videos">
     <div class="video"><div style="text-align: center;">
@@ -84,7 +191,6 @@ labor-saving technology unless the hours of work are reduced.
 </p><p>These powerful actors interfere by maintaining "unproductive classes" at a constant proportion to productive laborers and by enabling the immense expansion of "fictitious capital" based ultimately on protectionism and government finance. Government does these things so that it may raise an enormous level of revenues that it couldn't through direct taxation of the laboring population, because "it would have been gross, open, shameless, and consequently impossible." Instead, it makes the holders of this fictitious capital accomplices in a stratagem to exact a much-enlarged revenue. As partner in crime, the capitalist lays claim to a generous portion of the booty. Not surprisingly, war is a "powerful co-operator" in this relentless process of destroying the produce of labor while expanding the claims of fictitious capital. 
 </p><p>As for the claims of surplus value exacted by the capitalist, Dilke viewed them as causing the laborer "no real grievance to complain of" <i>provided capital was confined within its natural limits</i>. Not only was Dilke not opposed to capitalist production, he described it as leading to a virtually Utopian condition of freedom if only it was left to unfold according to its nature.
 </p><p>Far from "turning the Ricardian theory of value against capitalist production," as Friedrich Engels claimed in his preface to Volume 2 of <i>Capital</i> the author of <i>The Source and Remedy of the National Difficulties</i>, Charles Wentworth Dilke, proposed reform measures whose "adoption would leave the country at liberty to pursue such a wise and politic system of financial legislation as would leave trade and commerce unrestricted." For Dilke, the primary contradictions of capitalism (to use Marx's expression) lay not so much between capital and labor as between real and fictitious capital, productive and unproductive labor, convertible and inconvertible money, necessities and luxury goods.
-</div>
-
+</div></div>
 </body>
-</html>
+</html>      
